@@ -1,0 +1,22 @@
+{
+    "name": "mohamed/bug-tracker",
+    "authors": [
+        {
+            "name": "Mohamed Bouazza",
+            "email": "m.bouazza021@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
